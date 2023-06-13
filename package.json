@@ -1,4 +1,8 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "demotask server or assignment",
+  "main": "index.js",
   "dependencies": {
     "cors": "^2.8.5",
     "crypto-js": "^4.1.1",
@@ -8,7 +12,11 @@
     "mongoose": "^7.2.4"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   }
 }
