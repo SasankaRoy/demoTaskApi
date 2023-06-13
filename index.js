@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(
   CORS({
-    origin: ["http://localhost:3000", "https://demo-task-client.vercel.app/"],
+    origin: ["http://localhost:3000", "https://demo-task-client.vercel.app"],
     credentials: true,
   })
 );
